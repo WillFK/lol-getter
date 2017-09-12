@@ -10,7 +10,7 @@ node script.js 42
 
 This a crappy piece of code and won't work really well. It has problem with encoding and synchronism.
 
-requires chreerio and node > 7
+requires chreerio and node >= 7 (or 6, I'm not sure)
 
 to install cheerio, do as follows:
 ```
