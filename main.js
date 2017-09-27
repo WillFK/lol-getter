@@ -25,8 +25,9 @@
         if (!error && response.statusCode == 200) {
           console.log('\n')
           const $ = cheerio.load(body)
-          $('.row.gametype h3').each(function(){ console.log($(this).text().trim()) })
+          $('.row.gametype h3').each(function(){ console.log($(this).text().trim());console.log('=====') })
           console.log($('#search-realm').text().trim())
+	  console.log('#####')
           $('.gamesummoner-card .summoner-name>a').each(function(index, it) {
             console.log($(it).html())
           })
